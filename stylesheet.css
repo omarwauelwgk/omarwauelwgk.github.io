@@ -1,0 +1,202 @@
+
+/*Color cards por defecto son transparentes, quitar etiqueta y su fondo
+volvera a ser transparente*/
+
+body{
+  color:#212529;
+  background-color: #dacac0;
+}
+
+.h1{
+  color:#212529;
+  font-family: 'Bauhaus 93', sans-serif;
+  font-size: 45px;
+}
+
+.h3{
+  font-family: 'Bauhaus 93', sans-serif;
+  color:#212529;
+}
+
+.rojo{
+  background-color: #DC4145;
+}
+
+.azul{
+  background-color: #6e99e3;
+}
+
+.amarillo{
+  background-color: #F6C420;
+}
+
+.blanco{
+  background-color: #ffffff;
+}
+
+
+.blancotexto{
+  color:white;
+}
+
+
+/*Colores paginas*/
+.navbar, .calltoaction{
+  background-color: #F6C420;
+}
+
+footer{
+  background-color: #DC4145;
+}
+
+
+.testimonios{
+  background-color: #3779B9;
+}
+
+.testimonios p, .testimonios h5, .testimonios .h3{
+color:white;}
+
+
+
+
+
+
+/*Detalles carusel*/
+
+.carousel-caption{
+  padding-bottom: 3.25rem;
+  padding-right:300px;
+}
+
+.carousel-caption .h1{
+  opacity: 1;
+}
+
+.carousel-control-prev{
+
+  color:white;
+}
+
+.carousel .carousel-indicators button {
+  width: 10px;
+ height: 10px;
+ border-radius: 100%;
+ margin:20px;
+}
+
+
+/*Tarjetas*/
+
+.card{
+  margin-bottom: 30px;
+  background-color: transparent;
+  border: 0;
+  margin-bottom: 5px;
+
+  border-radius: 0;
+}
+
+.bordenegro{
+  border: 2px black solid;
+}
+
+.nav-link{
+/*font-family: 'Bauhaus 93', sans-serif;*/
+font-size: 18px;
+color:black;
+}
+
+/*Espaciado de los links navbar*/
+a.nav-link{
+  margin-left:20px;
+  color:black;
+}
+
+.nav-link:hover{
+  font-weight: 500;
+  color:black;
+}
+
+.active{
+  font-weight: 500;
+  color:black;
+}
+
+
+/*Detalles Botones*/
+
+.btn{
+border-radius: 0;
+}
+
+.btn-primary{
+background-color: #DC4145;
+color:white;
+font-weight: 500;
+border: 2px black solid;
+}
+
+.btn-primary:hover{
+background-color: #ffffff;
+color:black;
+font-weight: 500;
+border: 2px black solid;
+}
+
+
+
+/*Seccion ya tienes tu entrada?*/
+
+  .calltoaction .h3, .calltoaction .p{
+    
+    background-color: #F6C420;
+    
+  }
+
+  .alinear{
+    margin-top:5%;
+  }  
+
+/*FondoBauhaus
+.testimonios{
+  background-image: url("img/edificiobauhau.png");
+  background-repeat: no-repeat;
+  background-clip:no-clip;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: 50%;
+} 
+
+*/
+
+
+hr{
+  width:50%;
+  border: 2px black solid;
+  color:black;
+}
+
+
+/*Contacto*/
+
+.lineacontacto{
+  border-right: 2px black solid;
+}
+
+.infocontacto{
+  line-height: 14px;
+}
+
+.contactocuadro ul{
+  line-height: 1.35;
+  list-style: none;
+}
+
+
+.form-control{
+  border-radius: 0;
+  border: 2px black solid;
+
+}
